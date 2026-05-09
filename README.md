@@ -1,0 +1,1 @@
+# Full-Stack-Testing-of-an-E-commerce-Web-Application-with-Automated-Features-Using-SQA-Tools-
