@@ -19,9 +19,34 @@ Instead of relying solely on manual testing, this project implements a multi-lay
 4. **Security Vulnerability Scanning** (OWASP ZAP)
 
 This project was developed as the final submission for the **Software Quality Assurance (CSE 534)** course at North South University.
+---
+
+## 🎯 What This System Does
+This system acts as a fully automated QA engineer. It is programmed to:
+1. Automatically launch a browser and navigate to the e-commerce platform.
+2. Dynamically locate web elements (buttons, forms, modals) and interact with them like a real human user.
+3. Verify that expected outcomes occur (e.g., cart quantities increase, invalid logins are rejected).
+4. Send raw HTTP requests directly to the server to test backend database security.
+5. Simulate heavy user traffic to test server stability and scan for security vulnerabilities.
+6. Generate comprehensive execution reports and capture evidence automatically.
 
 ---
 
+## 🔗 System Integration
+This project integrates multiple tools to form a complete SQA pipeline:
+* **Selenium + PyTest:** The Page Object Model (POM) architecture integrates directly with PyTest fixtures to ensure a clean browser state for every test, automatically generating an HTML execution report upon completion.
+* **UI + API Layer:** While Selenium handles the frontend DOM interactions, Postman tests the underlying REST API, providing a true full-stack integration testing strategy.
+
+---
+
+## 📑 Full Reports & Evidence Files
+To view the complete findings, methodologies, and visual evidence (screenshots of bugs, JMeter graphs, Postman responses, and PyTest HTML logs), please refer to the detailed academic reports located in the `reports/` directory:
+
+* 📄 **[NSU Final Report](reports/NSU_Final_Report.md):** The comprehensive 24-section academic project report containing all findings, bug reports, and testing strategies.
+* 📊 **PyTest HTML Report:** Located at `reports/pytest_report.html`, this auto-generated file provides timestamped execution evidence of all UI automation tests.
+* 🖼️ **Visual Evidence:** All test execution screenshots and tool outputs (Postman, JMeter, ZAP) are embedded directly within the Final Report.
+
+---
 ## 🏗️ Architecture & Design Patterns
 The UI automation framework strictly follows the **Page Object Model (POM)** design pattern. 
 * **Maintainability:** UI locators and interactions are separated from test logic.
