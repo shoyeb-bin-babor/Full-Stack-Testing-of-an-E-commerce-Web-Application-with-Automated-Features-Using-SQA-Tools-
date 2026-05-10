@@ -10,11 +10,11 @@
 **Semester:** Spring 2026
 
 **Submitted To:**
-Faculty Safat Siddiqui
+Safat Siddiqui
 
 **Submitted By:**
-Student Name: Shoyeb Bin Babor
-Student ID: 2616343050
+Shoyeb Bin Babor
+ID: 2616343050
 
 </div>
 
