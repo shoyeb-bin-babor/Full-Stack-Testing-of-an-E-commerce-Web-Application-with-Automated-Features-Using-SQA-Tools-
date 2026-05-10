@@ -42,8 +42,8 @@ This project integrates multiple tools to form a complete SQA pipeline:
 ## 📑 Full Reports & Evidence Files
 To view the complete findings, methodologies, and visual evidence (screenshots of bugs, JMeter graphs, Postman responses, and PyTest HTML logs), please refer to the detailed academic reports located in the `reports/` directory:
 
-* 📄 **[NSU Final Report](reports/NSU_Final_Report.md):** The comprehensive 24-section academic project report containing all findings, bug reports, and testing strategies.
-* 📊 **PyTest HTML Report:** Located at `reports/pytest_report.html`, this auto-generated file provides timestamped execution evidence of all UI automation tests.
+* 📄 **[NSU Final Report](automation_sqa_project/reports/NSU_Final_Report.md):** The comprehensive 24-section academic project report containing all findings, bug reports, and testing strategies.
+* 📊 **PyTest HTML Report:** Located at `automation_sqa_project/reports/pytest_report.html`, this auto-generated file provides timestamped execution evidence of all UI automation tests.
 * 🖼️ **Visual Evidence:** All test execution screenshots and tool outputs (Postman, JMeter, ZAP) are embedded directly within the Final Report.
 
 ---
