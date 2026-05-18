@@ -1,4 +1,4 @@
-# Full-Stack-Testing-of-an-E-commerce-Web-Application-with-Automated-Features-Using-SQA-Tools-
+# Full Stack Testing of an E-commerce Web Application with Automated Features Using SQA Tools
 
 # 🚀 Full-Stack SQA Automation Framework
 
@@ -18,7 +18,6 @@ Instead of relying solely on manual testing, this project implements a multi-lay
 3. **Performance & Load Testing** (Apache JMeter)
 4. **Security Vulnerability Scanning** (OWASP ZAP)
 
-This project was developed as the final submission for the **Software Quality Assurance (CSE 534)** course at North South University.
 ---
 
 ## 🎯 What This System Does
@@ -42,7 +41,7 @@ This project integrates multiple tools to form a complete SQA pipeline:
 ## 📑 Full Reports & Evidence Files
 To view the complete findings, methodologies, and visual evidence (screenshots of bugs, JMeter graphs, Postman responses, and PyTest HTML logs), please refer to the detailed academic reports located in the `reports/` directory:
 
-* 📄 **[NSU Final Report](automation_sqa_project/reports/NSU_Final_Report.md):** The comprehensive 24-section academic project report containing all findings, bug reports, and testing strategies.
+* 📄 **[Report](automation_sqa_project/reports/Report.md):** The comprehensive 24-section academic project report containing all findings, bug reports, and testing strategies.
 * 📊 **PyTest HTML Report:** Located at `automation_sqa_project/reports/pytest_report.html`, this auto-generated file provides timestamped execution evidence of all UI automation tests.
 * 🖼️ **Visual Evidence:** All test execution screenshots and tool outputs (Postman, JMeter, ZAP) are embedded directly within the Final Report.
 
@@ -140,5 +139,3 @@ Configured and executed an automated vulnerability spider/scan. Documented the i
 
 ## 👨‍💻 Author
 **Shoyeb Bin Babor**
-* Software Quality Assurance (CSE 534)
-* North South University
