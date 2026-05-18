@@ -1,29 +1,16 @@
 <div align="center">
 
-# Project Report
+# Report
 
 ### Full Stack Testing of an E-commerce Web Application with Automated and Interactive Features Using SQA Tools
-
-**University:** North South University
-**Department:** Electrical and Computer Engineering (ECE)
-**Course:** Software Quality Assurance (CSE 534)
-**Semester:** Spring 2026
-
-**Submitted To:**
-Safat Siddiqui
-
-**Submitted By:**
 Shoyeb Bin Babor
-ID: 2616343050
 
 </div>
 
 <div style="page-break-after: always;"></div>
 
 ## 2. Acknowledgement
-I would like to express my sincere gratitude to my course instructor, Safat Siddiqui, for providing clear guidance and structured expectations throughout the semester. His detailed lectures on the Software Testing Life Cycle (STLC) and various SQA methodologies gave me the foundation needed to approach this project with confidence.
-
-I am also grateful to the developers behind the open-source tools utilized in this project — Selenium WebDriver, PyTest, Postman, Apache JMeter, and OWASP ZAP — whose documentation and community support were invaluable resources during implementation.
+I am grateful to the developers behind the open-source tools utilized in this project — Selenium WebDriver, PyTest, Postman, Apache JMeter, and OWASP ZAP — whose documentation and community support were invaluable resources during implementation.
 
 Special thanks to North South University and the Department of Electrical and Computer Engineering for creating a curriculum that bridges theoretical knowledge with practical, industry-relevant skills. The hands-on nature of this project has been one of the most educational experiences of my academic journey.
 
@@ -68,7 +55,7 @@ Software Quality Assurance (SQA) is a systematic process that ensures software p
 
 This project applies a comprehensive, multi-layered SQA strategy to a real, publicly accessible e-commerce web application — Automation Exercise (automationexercise.com). The application was chosen because it mimics the architecture of production-grade e-commerce platforms, offering a rich UI, a public RESTful API, and standard web interactions such as user authentication, product management, and checkout workflows.
 
-The project was executed under the guidance of the Software Quality Assurance course (CSE 534) at North South University, Spring 2026. It covers the full Software Testing Life Cycle (STLC), from test planning and test case design through execution, defect reporting, and result analysis. The tools used represent the current industry standard: Selenium and PyTest for UI automation, Postman for API validation, Apache JMeter for performance load testing, and OWASP ZAP for automated security scanning.
+The project was executed under the guidance of the Software Quality Assurance course. It covers the full Software Testing Life Cycle (STLC), from test planning and test case design through execution, defect reporting, and result analysis. The tools used represent the current industry standard: Selenium and PyTest for UI automation, Postman for API validation, Apache JMeter for performance load testing, and OWASP ZAP for automated security scanning.
 
 ## 6. Project Goal
 The primary goal of this project is to rigorously validate the quality of the Automation Exercise e-commerce platform from four distinct perspectives: functional, performance, security, and API reliability. Rather than relying on manual, ad-hoc testing which is time-consuming and inconsistent, this project establishes a repeatable, automated testing framework that can be re-executed whenever the application changes.
